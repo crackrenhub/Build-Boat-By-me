@@ -9,7 +9,7 @@ local OwO = library:Window("Build Boat By Axis")
 local user = "https://pastebin.com/raw/sUGswdin"
 local bl = "https://pastebin.com/raw/1Hrqx25H"
 local user = game:HttpGet(user, true)
-banned = game:HttpGet(bl, true)
+local banned = game:HttpGet(bl, true)
 plr = game.Players.LocalPlayer
 --find data--
 if string.find(key,_G.Key) then
