@@ -4,20 +4,6 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/blood
 
 local OwO = library:Window("Build Boat By Axis")
 
---whitelist---
-
-local user = "https://pastebin.com/raw/sUGswdin"
-local bl = "https://pastebin.com/raw/1Hrqx25H"
-local user = game:HttpGet(user, true)
-local banned = game:HttpGet(bl, true)
-plr = game.Players.LocalPlayer
---find data--
-if string.find(key,_G.Key) then
-	---script---
-	print("Successfully")
-	else
-		plr:kick("Key Bro !!!!")
-	end
 --script--
 
 task.spawn(function()
